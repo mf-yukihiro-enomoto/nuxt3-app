@@ -3,12 +3,6 @@ const show = ref(false);
 const clickCoupon = () => {
   show.value = true;
 };
-useHead({
-  title: 'Topページ',
-  meta: [
-    { hid: 'description', name: 'description', content: 'Topページの説明' }
-  ],
-});
 </script>
 
 <template>

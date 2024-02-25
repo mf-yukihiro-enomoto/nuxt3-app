@@ -1,13 +1,7 @@
 <script setup>
 const clickAlert = () => {
-  alert('alert');
+  alert(window.location.href);
 };
-useHead({
-  title: 'Aboutページ',
-  meta: [
-    { hid: 'description', name: 'description', content: 'Aboutページの説明' }
-  ],
-});
 </script>
 
 <template>

@@ -1,0 +1,14 @@
+{
+  "/": {
+    "title": "Topページ",
+    "description": "Topページの説明"
+  },
+  "/about": {
+    "title": "Aboutページ",
+    "description": "Aboutページの説明"
+  },
+  "/users": {
+    "title": "Usersページ",
+    "description": "Usersページの説明"
+  }
+}
