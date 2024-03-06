@@ -6,9 +6,3 @@ export default defineNuxtConfig({
     '@/assets/scss/style.scss',
   ],
 })
-
-
-
-
-
-

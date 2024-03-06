@@ -38,23 +38,14 @@ onMounted(() => {
     script: scripts
   })
 })
-
-
-
-
 </script>
-
-
-
-
 
 <template>
   <div>
     <Navbar />
     <slot />
+    <!-- <Rotate /> -->
   </div>
 </template>
 
-
-
-
+<style scoped lang="scss"></style>
