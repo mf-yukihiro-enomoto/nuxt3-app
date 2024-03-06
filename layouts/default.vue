@@ -26,7 +26,7 @@ onMounted(() => {
   ]
   let scripts = [
     { src: '//cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js', defer: true },
-    { src: '/assets/js/common.js', defer: true },
+    { src: '/assets/js/common.js' },
   ]
   useHead({
     htmlAttrs: {
@@ -38,7 +38,15 @@ onMounted(() => {
     script: scripts
   });
 })
+
+
+
+
 </script>
+
+
+
+
 
 <template>
   <div>

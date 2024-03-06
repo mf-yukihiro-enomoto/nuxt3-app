@@ -7,7 +7,7 @@ const clickCoupon = () => {
 
 <template>
   <div>
-    <h1>Top Page</h1>
+    <h1>Top</h1>
     <div @click="clickCoupon">click</div>
     <LazyCoupon v-if="show" />
     <div style="width:100px;">
