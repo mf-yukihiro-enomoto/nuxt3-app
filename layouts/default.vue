@@ -36,7 +36,7 @@ onMounted(() => {
     meta: metas,
     link: links,
     script: scripts
-  });
+  })
 })
 
 

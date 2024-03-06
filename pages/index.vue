@@ -3,6 +3,30 @@ const show = ref(false);
 const clickCoupon = () => {
   show.value = true;
 };
+
+onMounted(() => {
+  console.log('onMounted')
+})
+
+onBeforeMount(() => {
+  console.log('onBeforeMount')
+})
+
+onUnmounted(() => {
+  console.log('onUnmounted')
+})
+
+onBeforeUnmount(() => {
+  console.log('onBeforeUnmount')
+})
+
+onUpdated(() => {
+  console.log('onUpdated')
+})
+
+onBeforeUpdate(() => {
+  console.log('onBeforeUpdate')
+})
 </script>
 
 <template>
@@ -17,9 +41,3 @@ const clickCoupon = () => {
 </template>
 
 <style scoped lang="scss"></style>
-
-
-
-
-
-
