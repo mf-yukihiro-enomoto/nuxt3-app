@@ -5,4 +5,11 @@ export default defineNuxtConfig({
   css: [
     '@/assets/scss/style.scss',
   ],
+  app: {
+    // ページ遷移アニメーションの設定
+    pageTransition: {
+      name: 'page',
+      mode: 'out-in',
+    },
+  },
 })

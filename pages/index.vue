@@ -34,9 +34,9 @@ onBeforeUpdate(() => {
     <h1>Top</h1>
     <div @click="clickCoupon">click</div>
     <LazyCoupon v-if="show" />
-    <div style="width:100px;">
+    <!-- <div style="width:100px;">
       <img src="/assets/img/common/icon-black.png" alt="" style="width:100%;">
-    </div>
+    </div> -->
   </div>
 </template>
 

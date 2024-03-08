@@ -11,9 +11,7 @@ onMounted(() => {
 </script>
 
 <template>
-  <div>
-    <div class="box"></div>
-  </div>
+  <div class="box"></div>
 </template>
 
 <style scoped lang="scss">

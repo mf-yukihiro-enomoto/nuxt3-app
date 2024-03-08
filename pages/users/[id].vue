@@ -1,16 +1,26 @@
 <script setup>
-const router = useRoute();
-useHead({
-  title: 'Usersページ' + router.params.id,
-  meta: [
-    { hid: 'description', name: 'description', content: 'Usersページ' + router.params.id + 'の説明' }
-  ],
-});
+const route = useRoute();
+
+
+
 </script>
 
 <template>
-  <h1>Users</h1>
-  <p>ユーザID：{{ $route.params.id }}</p>
+  <div>
+    <img :src="`/assets/img/users/img0${route.params.id}.jpg`" class="mv">
+    <h1>Users</h1>
+    <p>ユーザID：{{ $route.params.id }}</p>
+    <div>
+      <NuxtLink to="/users">Back</NuxtLink>
+    </div>
+  </div>
 </template>
 
-<style scoped lang="scss"></style>
+
+
+<style scoped lang="scss">
+img.mv {
+  margin: -8px -8px 0 -8px;
+  width: calc(100% + 16px);
+}
+</style>

@@ -1,18 +1,24 @@
 @use 'variables' as *;
 
+img {
+  width: 100%;
+  vertical-align: bottom;
+}
+
 nav {
+  margin: 20px 0;
   a {
     margin-right: 10px;
-    // color:$color;
   }
 }
 
-// .page-enter-active,
-// .page-leave-active {
-//   transition: all 0.4s;
-// }
-// .page-enter-from,
-// .page-leave-to {
-//   opacity: 0;
-//   filter: blur(1rem);
-// }
+
+
+.page-enter-active,
+.page-leave-active {
+  transition: all 0.3s;
+}
+.page-enter-from,
+.page-leave-to {
+  opacity: 0;
+}
