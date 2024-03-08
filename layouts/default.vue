@@ -44,7 +44,7 @@
 <template>
   <div>
     <slot />
-    <Navbar />
+    <!-- <Navbar /> -->
     <!-- <Rotate /> -->
   </div>
 </template>
